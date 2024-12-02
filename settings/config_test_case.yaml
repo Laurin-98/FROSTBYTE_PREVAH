@@ -3,7 +3,7 @@
 
 # Domain, note that the name needs to match the data paths that follow - current options are: "05BB001" for the Bow River at Banff in Alberta, Canada, or "09081600" for the Crystal River Above Avalanche Creek, Near Redstone in Colorado, USA
 
-domain: "2327"
+domain: "2473"
 
 # Observational data path
 #streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
