@@ -56,3 +56,4 @@ logs/
 # End of .gitignore
 
 /CH_data/CH_camels_output_plots/
+/CH_data/CH_output_PLOTS/
