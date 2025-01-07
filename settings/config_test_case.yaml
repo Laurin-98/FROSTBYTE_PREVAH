@@ -6,24 +6,24 @@
 domain: "2491"
 
 # Observational data path
-streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
-precip_obs_path: "../CH_data/CH_input_data/P_data.nc"
-SWE_obs_path: "../CH_data/CH_input_data/SWE_data.nc"
+#streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
+#precip_obs_path: "../CH_data/CH_input_data/P_data.nc"
+#SWE_obs_path: "../CH_data/CH_input_data/SWE_data.nc"
 
 # GIS data paths
-basins_shp_path: "../CH_data/CH_input_data/nival_basins.shp"
-basins_dem_path: "../test_case_data/input_data/MERIT_Hydro_dem_"
-
-# Output data paths
-plots_path: "../CH_data/CH_output_plots/"
-output_data_path: "../CH_data/CH_output_data/"
-
-#Camels Schweiz
-#streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
-#precip_obs_path: "../CH_data/CH_input_data/P_Camels.nc" # camels
-#SWE_obs_path: "../CH_data/CH_input_data/SWE_Camels.nc" # camels
 #basins_shp_path: "../CH_data/CH_input_data/nival_basins.shp"
 #basins_dem_path: "../test_case_data/input_data/MERIT_Hydro_dem_"
-#plots_path: "../CH_data/CH_camels_output_plots/" # camels
-#output_data_path: "../CH_data/CH_camels_output_data/" # camels
+
+# Output data paths
+#plots_path: "../CH_data/CH_output_plots/"
+#output_data_path: "../CH_data/CH_output_data/"
+
+#Camels Schweiz
+streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
+precip_obs_path: "../CH_data/CH_input_data/P_Camels.nc" # camels
+SWE_obs_path: "../CH_data/CH_input_data/SWE_Camels.nc" # camels
+basins_shp_path: "../CH_data/CH_input_data/nival_basins.shp"
+basins_dem_path: "../test_case_data/input_data/MERIT_Hydro_dem_"
+plots_path: "../CH_data/CH_camels_output_plots/" # camels
+output_data_path: "../CH_data/CH_camels_output_data/" # camels
 
