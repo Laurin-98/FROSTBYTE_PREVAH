@@ -49,11 +49,13 @@ logs/
 # DS_store
 .DS_store
 
-# Exclude nc files
+# Exclude nc and.shp files
 *.nc
+*.shp
 
 
 # End of .gitignore
 
-/CH_data/CH_camels_output_plots/
-/CH_data/CH_output_PLOTS/
+/PREVAH/output_plots/
+
+/PREVAH/input_data/

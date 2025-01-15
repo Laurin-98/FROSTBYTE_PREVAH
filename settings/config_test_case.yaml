@@ -3,7 +3,7 @@
 
 # Domain, note that the name needs to match the data paths that follow - current options are: "05BB001" for the Bow River at Banff in Alberta, Canada, or "09081600" for the Crystal River Above Avalanche Creek, Near Redstone in Colorado, USA
 
-domain: "V481"
+domain: "V1021"
 
 # Observational data path
 #streamflow_obs_path: "../CH_data/CH_input_data/Qobs_Camels.nc"
@@ -22,7 +22,7 @@ domain: "V481"
 streamflow_obs_path: "../PREVAH/input_data/Q_prevah.nc"
 precip_obs_path: "../PREVAH/input_data/P_prevah.nc" # camels
 SWE_obs_path: "../PREVAH/input_data/SWE_prevah.nc" # camels
-basins_shp_path: "../PREVAH/input_data/nival_basins.shp"
+basins_shp_path: "../PREVAH/input_data/ebene_40km_with_ids.shp"
 basins_dem_path: "../PREVAH/input_data/MERIT_Hydro_dem_"
 plots_path: "../PREVAH/output_plots/" # camels
 output_data_path: "../PREVAH/output_data/" # camels
