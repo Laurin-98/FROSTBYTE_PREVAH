@@ -2,18 +2,37 @@ import nbformat
 import subprocess
 import time
 from datetime import timedelta
-
+## IMPORTANT: if you run FROSTBYTE with this file uncomment in each notebook the definition "test_basin_id = 'some_id". the definition "test_basin_id = settings['domain']" can be used if you only want to run one testbasin manually.
 # Liste der IDs
 
-ids = [  'V714', 'V788','V554']
+ids = [
+    'V8', 'V31', 'V52', 'V85', 'V99', 'V192', 'V200', 'V208', 'V234', 'V250',
+    'V286', 'V316', 'V353', 'V365', 'V408', 'V458', 'V459', 'V482', 'V483',
+    'V499', 'V500', 'V509', 'V514', 'V520', 'V539', 'V557', 'V566', 'V588',
+    'V597', 'V633', 'V663', 'V670', 'V672', 'V685', 'V703', 'V713', 'V736',
+    'V747', 'V756', 'V775', 'V780', 'V815', 'V878', 'V880', 'V884', 'V912',
+    'V913', 'V941', 'V942', 'V971', 'V976', 'V1010', 'V1040', 'V1061',
+    'V1079', 'V1127', 'V1161'
+]
 
 # Liste der Jupyter-Notebook-Dateien
+## if only nival uncomment this definition of "notebooks" (and comment the nivo-glacial part)
+"""
 notebooks = [
     "1_RegimeClassification.ipynb",
     "2_StreamflowPreprocessing.ipynb",
     "3_SWEPreprocessing_without_P_gapfilling.ipynb",
     "4_Forecasting.ipynb",
     "5_HindcastVerification.ipynb"
+]
+"""
+## if nival and nivo-glacial basins uncomment this definition of "notebooks" (and comment the nival part)
+notebooks = [
+    "1_RegimeClassification.ipynb",
+    "2_glac_StreamflowPreprocessing.ipynb",
+    "3_SWEPreprocessing_without_P_gapfilling.ipynb",
+    "4_glac_Forecasting.ipynb",
+    "5_glac_HindcastVerification.ipynb"
 ]
 
 # Funktion, um die test_basin_id in einem Notebook zu ersetzen

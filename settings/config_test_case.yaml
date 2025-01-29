@@ -3,7 +3,7 @@
 
 # Domain, note that the name needs to match the data paths that follow - current options are: "05BB001" for the Bow River at Banff in Alberta, Canada, or "09081600" for the Crystal River Above Avalanche Creek, Near Redstone in Colorado, USA
 
-domain: "V947"
+domain: "V61"
 
 
 #Camels Schweiz
@@ -12,11 +12,14 @@ precip_obs_path: "../PREVAH/input_data/P_prevah_m3.nc"
 SWE_obs_path: "../PREVAH/input_data/SWE_prevah_m3.nc"
 basins_shp_path: "../PREVAH/input_data/ebene_40km_with_ids.shp"
 basins_dem_path: "../PREVAH/input_data/MERIT_Hydro_dem_"
-plots_path: "../PREVAH/output_plots/"
-output_data_path: "../PREVAH/output_data/"
+#plots_path: "../PREVAH/output_plots/"
+#output_data_path: "../PREVAH/output_data/"
 
-# for nival basins with glaciated area > 10%
+# second run with #_glac_...
 #plots_path: "../PREVAH/output_plots_glaciated/"
 #output_data_path: "../PREVAH/output_data_glaciated/"
 glacier_component_path: "../PREVAH/input_data/GL_prevah.nc"
 
+# second run with #_glac_...
+plots_path: "../PREVAH/output_plots_test/"
+output_data_path: "../PREVAH/output_data_test/"
